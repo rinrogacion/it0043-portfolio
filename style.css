@@ -110,6 +110,13 @@ nav {
  grid-template-columns: repeat(3, 1fr);
  gap: 20px;
 }
+
+@media (max-width: 599px) {
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 footer {
     padding: 30px;
     text-align: center;
