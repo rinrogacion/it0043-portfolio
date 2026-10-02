@@ -98,3 +98,37 @@ nav {
  grid-template-columns: repeat(3, 1fr);
  gap: 20px;
 }
+footer {
+    padding: 30px;
+    text-align: center;
+
+    background: #222;
+    color: white;
+}
+
+
+@media (min-width: 600px) {
+
+    .skills-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+@media (min-width: 900px) {
+
+    .projects-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+
+@media (min-width: 1200px) {
+
+    .hero h2 {
+        font-size: 72px;
+    }
+
+}
