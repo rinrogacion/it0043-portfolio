@@ -78,6 +78,18 @@ nav {
  display: flex;
  gap: 25px;
 }
+
+@media (max-width: 599px) {
+    nav {
+        flex-wrap: wrap;
+    }
+
+    .nav-links {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+}
+
 .nav-links a {
  color: white;
  text-decoration: none;
