@@ -55,6 +55,11 @@ section h2 {
     margin-bottom: 25px;
 }
 
+#about p,
+#contact p {
+    overflow-wrap: anywhere;
+}
+
 .project-card {
     background: white;
     padding: 30px;
