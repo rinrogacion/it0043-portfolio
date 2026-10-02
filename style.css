@@ -134,6 +134,14 @@ footer {
 
 }
 
+@media (max-width: 599px) {
+
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
+
 
 @media (min-width: 900px) {
 
